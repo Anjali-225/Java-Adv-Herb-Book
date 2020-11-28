@@ -1,4 +1,6 @@
 package LambdaExpressionsAndExceptions;
+// Throw an exception from a lambda expression.
 
-public class DoubleNumericArrayFunc {
+public interface DoubleNumericArrayFunc {
+    double func(double[] n) throws EmptyArrayException;
 }

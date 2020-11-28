@@ -1,4 +1,7 @@
 package LambdaExpressionsAndExceptions;
 
-public class EmptyArrayException {
+public class EmptyArrayException extends Throwable {
+    EmptyArrayException() {
+        super("Array Empty");
+    }
 }

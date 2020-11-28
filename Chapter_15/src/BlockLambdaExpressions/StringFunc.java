@@ -1,4 +1,6 @@
 package BlockLambdaExpressions;
+// A block lambda that reverses the characters in a string.
 
-public class StringFunc {
+public interface StringFunc {
+    String func(String n);
 }

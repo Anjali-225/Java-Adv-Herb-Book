@@ -1,4 +1,7 @@
 package ConstructorReferences.WithGenericClass;
+// Demonstrate a constructor reference with a generic class.
 
-public interface MyFunc {
+// MyFunc is now a generic functional interface.
+public interface MyFunc<T> {
+    MyClass<T> func(T n);
 }

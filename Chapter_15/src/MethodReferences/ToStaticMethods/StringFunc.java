@@ -1,4 +1,7 @@
 package MethodReferences.ToStaticMethods;
+// Demonstrate a method reference for a static method.
 
-public class StringFunc {
+// A functional interface for string operations.
+public interface StringFunc {
+    String func(String n);
 }

@@ -1,4 +1,6 @@
 package PassingLambdaExpressionsAsArguments;
+// Use lambda expressions as an argument to a method.
 
-public class StringFunc {
+public interface StringFunc {
+    String func(String n);
 }

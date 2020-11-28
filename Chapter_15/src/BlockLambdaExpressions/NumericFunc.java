@@ -1,4 +1,7 @@
 package BlockLambdaExpressions;
+// A block lambda that computes the factorial of an int value.
 
-public class NumericFunc {
+public interface NumericFunc {
+    int func(int n);
 }
+
