@@ -1,4 +1,4 @@
-package RegularExpressionsProcessing.DemonstratingPatternMatching;
+package DemonstratingPatternMatching;
 // Use find() to find multiple subsequences.
 import java.util.regex.*;
 

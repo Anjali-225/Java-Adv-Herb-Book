@@ -1,4 +1,4 @@
-package RegularExpressionsProcessing.UsingWildcardsAndQuantifiers;
+package UsingWildcardsAndQuantifiers;
 // Use a quantifier.
 import java.util.regex.*;
 

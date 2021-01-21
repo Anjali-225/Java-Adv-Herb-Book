@@ -1,4 +1,4 @@
-package RegularExpressionsProcessing.DemonstratingPatternMatching;
+package DemonstratingPatternMatching;
 
 // A simple pattern matching demo.
 import java.util.regex.*;
